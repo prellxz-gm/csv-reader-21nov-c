@@ -31,7 +31,7 @@ The reference reads one character at a time. Tick-Hunter scans with native
   `x"y`, blank lines, BOM, CRLF/LF mix, unterminated quotes at EOF and
   mid-file, empty text, header and no-header, no trailing EOL).
 - Local timing of `run()` over the 6 practice cases (10 warm passes,
-  `process.cpuUsage`): **best 61.6 ms, median ~66 ms**, against roughly
+  `process.cpuUsage`): **best 62.9 ms, median 67.7 ms**, against roughly
   640–980 ms for the reference on the same machine — about 10–13x faster.
 
 ## Files
